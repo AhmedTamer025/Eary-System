@@ -1,0 +1,111 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.AD-header{
+  color: rgb(220,220,220);
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: 550;
+  padding-left: 45px;
+}
+
+  .AD-header:hover {
+      color: #78317dc8;
+  } 
+
+  .navbar-brand{
+    text-decoration: none; 
+    color: rgb(220,220,220); 
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2.5em;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  color:rgb(76, 40, 15) ;
+  font-size: 2.2em;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+
+.card_Q{   
+  background-color: #fff;
+  width: 30em;
+  box-shadow: 0 5px 25px rgba(1, 1, 1, 50%);
+  border-radius:  10px;
+  transition: 1s ease;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.card_Q:hover{
+  transform: scale(1.08);
+
+}
+.card_history{   
+  background-color: #fff;
+  width: 30em;
+  box-shadow: 0 5px 25px rgba(1, 1, 1, 50%);
+  border-radius:  10px;
+  transition: 1s ease;
+ 
+}
+.card_choose_Q{   
+  background-color: #fff;
+  width: 15em;
+  box-shadow: 0 5px 25px rgba(1, 1, 1, 50%);
+  border-radius:  10px;
+  transition: 1s ease;
+  margin-top: 20px;
+ margin-left: 20px;
+}
+.card_choose_Q:hover{
+  transform: scale(1.08);
+
+}
+
+
